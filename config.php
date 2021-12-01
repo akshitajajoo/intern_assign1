@@ -1,0 +1,11 @@
+<?php      
+    $host = "https://github.com/akshitajajoo/intern_assign1";  
+    $user = "jajoo";  
+    $password = 'ok';  
+    $db_name = "demo";  
+      
+    $con = mysqli_connect($host, $user, $password, $db_name);  
+    if(mysqli_connect_errno()) {  
+        die("Failed to connect with MySQL: ". mysqli_connect_error());  
+    }  
+?>  
